@@ -16,5 +16,6 @@ form.addEventListener('submit', event => {
             sum += 25;
         }
     });
-    console.log(sum)
+    alert(`Você acertou fez ${sum} pontos!`);
+    document.location.reload();
 })
